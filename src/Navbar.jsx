@@ -7,13 +7,14 @@ const Navbar = () => {
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      backgroundColor: '#444',
-      padding: '20px 20px',
+      backgroundColor: '#333333',
+      padding: '25px 25px',
       width: '100%', // Make the navbar extend the full width of the screen
       position: 'fixed',
       top: 0,
       left: 0,
       zIndex: 1000,
+      boxShadow: '0 6px 10px rgba(0, 0, 0, 0.2)',
     },
     logo: {
       width: '200px', // Set the width to the desired size
